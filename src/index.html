@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Jason Holm | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Jason Holm | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Jason</span> and I am a
+          web developer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >View Portfolio</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.png"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                A diligent and adaptable Web Developer, armed with a strong
+                foundation in computer science, a passion for problem-solving,
+                and a dedication to continuous learning, I bring a fresh
+                perspective and a hunger to contribute to innovative projects.
+                My proficiency spans both front-end and back-end development,
+                with a knack for crafting user-centric interfaces and robust
+                server-side solutions. Eager to collaborate with diverse teams,
+                I am committed to delivering high-quality software that not only
+                meets business objectives but also enhances user experiences. I
+                am excited to apply my technical skills and enthusiasm to create
+                meaningful and impactful software solutions.
+              </p>
+              <p class="about-wrapper__info-text">
+                Other than that, I enjoy spending time with my family,
+                exercising and exploring Ireland.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Robofriends</h3>
+                <div>
+                  <p class="mb-4">
+                    Robofriends is a simple React app that allows you to search
+                    a database of robots by name. It was built using React,
+                    Tachyons, Robohash API and JSONPlaceholder API. The app was
+                    deployed using GitHub Pages.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://jasonholm81.github.io/robofriends/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/jasonholm81/robofriends"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://jasonholm81.github.io/robofriends/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/robofriends.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  JS Background Generator
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    A simple background generator built with vanilla JS. The app
+                    allows you to generate a linear gradient background by using
+                    the two color pickers. Once you have the color you like, you
+                    are able to copy the linear gradient output to your
+                    clipboard and apply it in your own project. The app was
+                    deployed using GitHub Pages.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://jasonholm81.github.io/JS-Background-Generator/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/jasonholm81/JS-Background-Generator"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://jasonholm81.github.io/JS-Background-Generator/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./assets/js-bg-generator.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Blackjack</h3>
+                <div>
+                  <p class="mb-4">
+                    Fancy a game of Blackjack? Click the botton below or the
+                    project image to be taken to the game. It's you against the
+                    dealer. Click the 'hit' button to have your cards dealt.
+                    Once you're confident that you have a high enough score to
+                    beat the dealer, click 'stand'. The dealer will then
+                    automatically continue until their they either win or lose.
+                    Click 'deal' once the game is over to restart.
+                  </p>
+                  <p class="mb-4">
+                    This game was built using vanilla JS, HTML and CSS. The game
+                    logic was built using JS and the dealer bot was created
+                    using an asynchronous function. The app was deployed using
+                    Replit.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://blackjack-app.jasonholm.repl.co/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/jasonholm81/Blackjack"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://blackjack-app.jasonholm.repl.co/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/blackjack.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <div class="social-links">
+          <a
+            rel="noreferrer"
+            href="https://api.whatsapp.com/send?phone=353892578926"
+            target="_blank"
+          >
+            <i class="fa fa-whatsapp fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/jason-holm/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://github.com/jasonholm81"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">© 2023 - Jason Holm</p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
